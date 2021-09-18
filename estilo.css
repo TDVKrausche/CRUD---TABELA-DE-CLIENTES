@@ -1,0 +1,90 @@
+*{
+    font-family: arial;
+    padding: 0px;
+    margin: 0px;
+}
+
+input,label{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    font-size: 13pt;
+    outline: none;
+    width: 100%;
+    
+}
+
+form{
+    width: 330px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 30px auto;
+}
+input[type='submit']{
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+#esquerda{
+    width: 35%;
+    
+    height: 500px;
+    float: left;
+}
+
+#direita{
+    width: 65% ;
+   
+    height: 500px;
+    float: left;
+}
+
+table{
+    
+    width: 90%;
+    margin: 30px auto;
+}
+
+tr{
+    margin: 10px auto;
+    line-height: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.aviso{
+    
+    width: 90%;
+    height: 50px;
+    margin: 10px auto 0px auto;
+}
+
+img{
+    width: 50px;
+    display: block;
+    float: left;
+    
+}
+
+h5{
+    line-height: 50px;
+    float: left;
+    
+}
